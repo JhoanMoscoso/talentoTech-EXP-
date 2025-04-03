@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>Resultado</title>
+    </head>
+    <body>
+       <h2>Resultado</h2>
+       <p>Datos ingresados:</p><br>
+       <ul>
+        <li>Edad: {{ data["edad"] }}</li>
+        <li>Sexo: {{ data["sexo"] }}</li>
+        <li>Nivel_Educativo: {{ data["nivel_educativo"] }}</li>
+       </ul>
+
+       <h2>Salario estimado según RandomForestRegressor</h2>
+       <p>{{ '{:,.0f}'.format(y_pred[0]) }}</p>
+
+       <a href="/">volver</a>
+
+    </body>
+</html>

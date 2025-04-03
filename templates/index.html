@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title>asignación de salario</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="" style="align-self: center;padding: 30px;">
+            <h1 style="text-align: center;">Calculadora de salarios para el sector educativo en Colombia 2024</h1>
+            <form action="/" method="post">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-4">
+                        <label for="edad">Edad:</label><br>
+                        <input type="number" name="edad" min="18" max="99" class="form-control"></textarea>
+                        <small>Ingrese la edad como número entero mayor a 0 y menor a 99</small><br>
+
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="sexo">Sexo:</label><br>
+                        <select  class="form-select"" id="sexo" name="sexo">
+                            <option value="1">Hombre</option>
+                            <option value="0">Mujer</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <label for="nivel_educativo">Nivel Educativo:</label><br>
+                        <select  class="form-select" id="nivel_educativo" name="nivel_educativo">
+                            <option value="1">Primaria</option>
+                            <option value="2">Secundaria</option>
+                            <option value="3">Bachillerato</option>
+                            <option value="4">Técnica</option>
+                            <option value="5">Tecnología</option>
+                            <option value="6">Pregrado</option>
+                            <option value="7">Posgrado</option>
+                        </select>
+                    </div>
+                    <div class="col-12" style="justify-content: center;display: flex;">
+                        <input type="submit" class="btn btn-success" value="Send">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-183b7c49-2712-4eeb-960d-607193aa653b" data-elfsight-app-lazy></div>
+        
+     </body>
+</html>
